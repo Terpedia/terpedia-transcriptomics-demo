@@ -10,6 +10,10 @@ The notebook and local Python kernel work without credentials. To use the in-app
 
 Terputer is a research workspace, and generated analyses require human review before scientific use. See the white paper's limitations and the critical review for the evidence boundaries.
 
+## Research MCP API
+
+`https://terputer.terpedia.com/mcp` is a remote Streamable HTTP MCP endpoint for read-only GEO, PubMed, and ENA metadata discovery. The [API index](https://terputer.terpedia.com/api) lists the available tools. Curated Terpedia BigQuery study and sample search requires a Terputer bearer token. Codespace file and Python execution tools stay in the workspace's local MCP server.
+
 ## Local startup
 
 ```sh
